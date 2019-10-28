@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "New tab Ugwisha",
+  "version": "1.0",
+  "description": "Open a new tab to see the Gunn schedule",
+  "icons": {
+    "128": "logo128.png"
+  },
+  "offline_enabled": true,
+  "incognito": "split",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "browser_action": {
+    "default_icon": "logo128.png"
+  }
+}
